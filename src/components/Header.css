@@ -1,0 +1,79 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .header__left,
+  .header__center,
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .header__brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0db4f;
+  }
+  
+  .header__center {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .header__search {
+    position: relative;
+    width: 300px;
+  }
+  
+  .header__search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .header__search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .header__right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header__link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__link:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
